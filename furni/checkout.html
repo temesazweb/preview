@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="css/tiny-slider.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- فونت فارسی -->
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css">
+
+  <!-- تنظیمات راست‌چین -->
+  <style>
+	* {
+   font-family: 'Vazir', sans-serif !important;
+}
+    body {
+      direction: rtl;
+      text-align: right;
+      font-family: 'Vazir', sans-serif;
+    }
+  </style>
+
+  <title>قالب رایگان Furni برای مبلمان و دکوراسیون داخلی</title>
+</head>
+
+<body>
+
+  <!-- Start Header/Navigation -->
+  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+    <div class="container">
+      <a class="navbar-brand" href="index.html">فارنی<span></span></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+        aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsFurni">
+		<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+			<li>
+				<a class="nav-link" href="index.html">خانه</a>
+			</li>
+			<li><a class="nav-link" href="shop.html">فروشگاه</a></li>
+			<li><a class="nav-link" href="about.html">درباره ما</a></li>
+			<li><a class="nav-link" href="services.html">خدمات</a></li>
+			<li><a class="nav-link" href="blog.html">بلاگ</a></li>
+			<li><a class="nav-link" href="contact.html">تماس با ما</a></li>
+		</ul>
+
+        <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+          <li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
+          <li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+  <!-- End Header/Navigation -->
+
+
+		<!-- شروع بخش معرفی -->
+<div class="hero">
+	<div class="container">
+	  <div class="row justify-content-between">
+		<div class="col-lg-5">
+		  <div class="intro-excerpt">
+			<h1>تسویه‌حساب</h1>
+		  </div>
+		</div>
+		<div class="col-lg-7">
+		  <!-- فضای خالی برای محتوا -->
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!-- پایان بخش معرفی -->
+  
+  <div class="untree_co-section">
+	<div class="container">
+  
+	  <!-- پیام مشتری قدیمی -->
+	  <div class="row mb-5">
+		<div class="col-md-12">
+		  <div class="border p-4 rounded" role="alert">
+			مشتری قبلی هستید؟ <a href="#">اینجا کلیک کنید</a> برای ورود
+		  </div>
+		</div>
+	  </div>
+  
+	  <div class="row">
+		<!-- بخش اطلاعات صورت‌حساب -->
+		<div class="col-md-6 mb-5 mb-md-0">
+		  <h2 class="h3 mb-3 text-black">جزئیات صورت‌حساب</h2>
+		  <div class="p-3 p-lg-5 border bg-white">
+  
+			<!-- انتخاب کشور -->
+			<div class="form-group">
+			  <label for="c_country" class="text-black">کشور <span class="text-danger">*</span></label>
+			  <select id="c_country" class="form-control">
+				<option value="1">یک کشور انتخاب کنید</option>
+				<option value="2">بنگلادش</option>
+				<option value="3">الجزایر</option>
+				<option value="4">افغانستان</option>
+				<option value="5">غنا</option>
+				<option value="6">آلمانی</option>
+				<option value="7">بحرین</option>
+				<option value="8">کلمبیا</option>
+				<option value="9">جمهوری دومینیکن</option>
+			  </select>
+			</div>
+  
+			<!-- نام و نام خانوادگی -->
+			<div class="form-group row">
+			  <div class="col-md-6">
+				<label for="c_fname" class="text-black">نام <span class="text-danger">*</span></label>
+				<input type="text" class="form-control" id="c_fname" name="c_fname">
+			  </div>
+			  <div class="col-md-6">
+				<label for="c_lname" class="text-black">نام خانوادگی <span class="text-danger">*</span></label>
+				<input type="text" class="form-control" id="c_lname" name="c_lname">
+			  </div>
+			</div>
+  
+			<!-- نام شرکت -->
+			<div class="form-group row">
+			  <div class="col-md-12">
+				<label for="c_companyname" class="text-black">نام شرکت (اختیاری)</label>
+				<input type="text" class="form-control" id="c_companyname" name="c_companyname">
+			  </div>
+			</div>
+  
+			<!-- آدرس -->
+			<div class="form-group row">
+			  <div class="col-md-12">
+				<label for="c_address" class="text-black">آدرس <span class="text-danger">*</span></label>
+				<input type="text" class="form-control" id="c_address" name="c_address" placeholder="آدرس خیابان">
+			  </div>
+			</div>
+  
+			<div class="form-group mt-3">
+			  <input type="text" class="form-control" placeholder="آپارتمان، واحد، طبقه (اختیاری)">
+			</div>
+  
+			<!-- استان و کد پستی -->
+			<div class="form-group row">
+			  <div class="col-md-6">
+				<label for="c_state_country" class="text-black">استان / کشور <span class="text-danger">*</span></label>
+				<input type="text" class="form-control" id="c_state_country" name="c_state_country">
+			  </div>
+			  <div class="col-md-6">
+				<label for="c_postal_zip" class="text-black">کد پستی <span class="text-danger">*</span></label>
+				<input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip">
+			  </div>
+			</div>
+  
+			<!-- ایمیل و تلفن -->
+			<div class="form-group row mb-5">
+			  <div class="col-md-6">
+				<label for="c_email_address" class="text-black">ایمیل <span class="text-danger">*</span></label>
+				<input type="text" class="form-control" id="c_email_address" name="c_email_address">
+			  </div>
+			  <div class="col-md-6">
+				<label for="c_phone" class="text-black">تلفن <span class="text-danger">*</span></label>
+				<input type="text" class="form-control" id="c_phone" name="c_phone" placeholder="شماره تلفن">
+			  </div>
+			</div>
+  
+			<!-- ایجاد حساب کاربری -->
+			<div class="form-group">
+			  <label for="c_create_account" class="text-black" data-bs-toggle="collapse" href="#create_an_account" role="button">
+				<input type="checkbox" value="1" id="c_create_account"> ایجاد حساب کاربری؟
+			  </label>
+			  <div class="collapse" id="create_an_account">
+				<div class="py-2 mb-4">
+				  <p class="mb-3">با وارد کردن اطلاعات زیر یک حساب کاربری ایجاد می‌شود. اگر قبلاً ثبت‌نام کرده‌اید از بالای صفحه وارد شوید.</p>
+				  <div class="form-group">
+					<label for="c_account_password" class="text-black">رمز عبور</label>
+					<input type="email" class="form-control" id="c_account_password" name="c_account_password">
+				  </div>
+				</div>
+			  </div>
+			</div>
+  
+			<!-- آدرس ارسال متفاوت -->
+			<div class="form-group">
+			  <label for="c_ship_different_address" class="text-black" data-bs-toggle="collapse" href="#ship_different_address" role="button">
+				<input type="checkbox" value="1" id="c_ship_different_address"> ارسال به آدرس دیگر؟
+			  </label>
+  
+			  <!-- فرم آدرس دوم مشابه فرم بالا است و تکرار نمی‌شود در اینجا برای اختصار -->
+  
+			</div>
+  
+			<!-- یادداشت سفارش -->
+			<div class="form-group">
+			  <label for="c_order_notes" class="text-black">یادداشت سفارش</label>
+			  <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5" class="form-control" placeholder="یادداشت خود را اینجا وارد کنید..."></textarea>
+			</div>
+  
+		  </div>
+		</div>
+  
+		<!-- سمت راست صفحه -->
+		<div class="col-md-6">
+  
+		  <!-- کد تخفیف -->
+		  <div class="row mb-5">
+			<div class="col-md-12">
+			  <h2 class="h3 mb-3 text-black">کد تخفیف</h2>
+			  <div class="p-3 p-lg-5 border bg-white">
+				<label for="c_code" class="text-black mb-3">اگر کد تخفیف دارید، وارد کنید</label>
+				<div class="input-group w-75 couponcode-wrap">
+				  <input type="text" class="form-control me-2" id="c_code" placeholder="کد تخفیف">
+				  <div class="input-group-append">
+					<button class="btn btn-black btn-sm" type="button" id="button-addon2">اعمال</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+  
+		  <!-- سبد خرید -->
+		  <div class="row mb-5">
+			<div class="col-md-12">
+			  <h2 class="h3 mb-3 text-black">سفارش شما</h2>
+			  <div class="p-3 p-lg-5 border bg-white">
+				<table class="table site-block-order-table mb-5">
+				  <thead>
+					<th>محصول</th>
+					<th>جمع</th>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td>تی‌شرت Top Up <strong class="mx-2">x</strong> 1</td>
+					  <td>250,000</td>
+					</tr>
+					<tr>
+					  <td>پولوشرت <strong class="mx-2">x</strong> 1</td>
+					  <td>100,000</td>
+					</tr>
+					<tr>
+					  <td class="text-black font-weight-bold"><strong>جمع سبد</strong></td>
+					  <td class="text-black">350,000</td>
+					</tr>
+					<tr>
+					  <td class="text-black font-weight-bold"><strong>جمع کل سفارش</strong></td>
+					  <td class="text-black font-weight-bold"><strong>350,000</strong></td>
+					</tr>
+				  </tbody>
+				</table>
+  
+				<!-- روش‌های پرداخت -->
+				<div class="border p-3 mb-3">
+				  <h3 class="h6 mb-0">
+					<a class="d-block" data-bs-toggle="collapse" href="#collapsebank">انتقال مستقیم بانکی</a>
+				  </h3>
+				  <div class="collapse" id="collapsebank">
+					<div class="py-2">
+					  <p class="mb-0">مبلغ را مستقیماً به حساب ما واریز کنید. از شناسه سفارش به عنوان مرجع استفاده کنید.</p>
+					</div>
+				  </div>
+				</div>
+  
+				<div class="border p-3 mb-3">
+				  <h3 class="h6 mb-0">
+					<a class="d-block" data-bs-toggle="collapse" href="#collapsecheque">پرداخت با چک</a>
+				  </h3>
+				  <div class="collapse" id="collapsecheque">
+					<div class="py-2">
+					  <p class="mb-0">مبلغ را به حساب بانکی ما واریز کنید. سفارش پس از واریز ارسال می‌شود.</p>
+					</div>
+				  </div>
+				</div>
+  
+				<div class="border p-3 mb-5">
+				  <h3 class="h6 mb-0">
+					<a class="d-block" data-bs-toggle="collapse" href="#collapsepaypal">پرداخت با پی‌پال</a>
+				  </h3>
+				  <div class="collapse" id="collapsepaypal">
+					<div class="py-2">
+					  <p class="mb-0">لطفاً از شناسه سفارش به عنوان مرجع پرداخت استفاده کنید.</p>
+					</div>
+				  </div>
+				</div>
+  
+				<!-- دکمه ثبت سفارش -->
+				<div class="form-group">
+				  <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='thankyou.html'">ثبت سفارش</button>
+				</div>
+  
+			  </div>
+			</div>
+		  </div>
+  
+		</div>
+	  </div>
+  
+	</div>
+  </div>
+  
+
+		<!-- شروع بخش پاورقی (Footer) -->
+<footer class="footer-section">
+	<div class="container relative">
+  
+	  <!-- تصویر مبل تزئینی -->
+	  <div class="sofa-img">
+		<img src="images/sofa.png" alt="تصویر" class="img-fluid">
+	  </div>
+  
+	  <!-- فرم عضویت در خبرنامه -->
+	  <div class="row justify-content-end">
+		<div class="col-lg-6">
+		  <div class="subscription-form">
+			<h3 class="d-flex align-items-center">
+			  <span class="me-1"><img src="images/envelope-outline.svg" alt="تصویر" class="img-fluid"></span>
+			  <span>عضویت در خبرنامه</span>
+			</h3>
+  
+			<form action="#" class="row g-3">
+			  <div class="col-auto">
+				<input type="text" class="form-control" placeholder="نام خود را وارد کنید">
+			  </div>
+			  <div class="col-auto">
+				<input type="email" class="form-control" placeholder="ایمیل خود را وارد کنید">
+			  </div>
+			  <div class="col-auto">
+				<button class="btn btn-primary">
+				  <span class="fa fa-paper-plane"></span>
+				</button>
+			  </div>
+			</form>
+  
+		  </div>
+		</div>
+	  </div>
+  
+	  <!-- اطلاعات کلی و لینک‌های مفید -->
+	  <div class="row g-5 mb-5">
+		<!-- درباره برند و شبکه‌های اجتماعی -->
+		<div class="col-lg-4">
+		  <div class="mb-4 footer-logo-wrap">
+			<a href="#" class="footer-logo">فارنی<span></span></a>
+		  </div>
+		  <p class="mb-4">
+			توضیحات ساختگی نمونه: این بخش می‌تواند شامل معرفی شرکت، اهداف و مأموریت‌ها باشد.
+		  </p>
+  
+		  <!-- آیکون‌های شبکه‌های اجتماعی -->
+		  <ul class="list-unstyled custom-social">
+			<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+			<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+			<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+			<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+		  </ul>
+		</div>
+  
+		<!-- دسته‌بندی لینک‌ها -->
+		<div class="col-lg-8">
+		  <div class="row links-wrap">
+  
+			<!-- دسته اول -->
+			<div class="col-6 col-sm-6 col-md-3">
+			  <ul class="list-unstyled">
+				<li><a href="#">درباره ما</a></li>
+				<li><a href="#">خدمات</a></li>
+				<li><a href="#">وبلاگ</a></li>
+				<li><a href="#">تماس با ما</a></li>
+			  </ul>
+			</div>
+  
+			<!-- دسته دوم -->
+			<div class="col-6 col-sm-6 col-md-3">
+			  <ul class="list-unstyled">
+				<li><a href="#">پشتیبانی</a></li>
+				<li><a href="#">مرکز دانش</a></li>
+				<li><a href="#">چت زنده</a></li>
+			  </ul>
+			</div>
+  
+			<!-- دسته سوم -->
+			<div class="col-6 col-sm-6 col-md-3">
+			  <ul class="list-unstyled">
+				<li><a href="#">فرصت‌های شغلی</a></li>
+				<li><a href="#">تیم ما</a></li>
+				<li><a href="#">مدیریت</a></li>
+				<li><a href="#">سیاست حفظ حریم خصوصی</a></li>
+			  </ul>
+			</div>
+  
+			<!-- دسته چهارم -->
+			<div class="col-6 col-sm-6 col-md-3">
+			  <ul class="list-unstyled">
+				<li><a href="#">صندلی Nordic</a></li>
+				<li><a href="#">Kruzo Aero</a></li>
+				<li><a href="#">صندلی ارگونومیک</a></li>
+			  </ul>
+			</div>
+  
+		  </div>
+		</div>
+	  </div>
+  
+	  <!-- اطلاعات حقوقی و لینک‌های پایین صفحه -->
+	  <div class="border-top copyright dir="rtl">
+		<div class="row pt-4">
+			<div class="col-lg-6">
+				<p class="mb-2 text-center text-lg-start">
+					حق کپی &copy;<script>document.write(new Date().getFullYear());</script>. تمامی حقوق محفوظ است. — طراحی شده با ❤️ توسط 
+					<a href="https://untree.co">Untree.co</a>، انتشار توسط 
+					<a href="https://themewagon.com">ThemeWagon</a>
+				</p>
+			</div>
+
+			<div class="col-lg-6 text-center text-lg-end">
+				<ul class="list-unstyled d-inline-flex ms-auto">
+					<li class="me-4"><a href="#">قوانین و مقررات</a></li>
+					<li><a href="#">سیاست حفظ حریم خصوصی</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+  
+	</div>
+  </footer>
+  <!-- پایان بخش پاورقی -->
+  
+  <!-- بارگذاری اسکریپت‌های مورد نیاز -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/custom.js"></script>
+  </body>
+  </html>
+  
